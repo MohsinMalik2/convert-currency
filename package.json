@@ -1,5 +1,5 @@
 {
-  "name": "convert-currency",
+  "name": "i-convert-currency",
   "version": "1.0.0",
   "description": "`convert-currency` is a lightweight and easy-to-use npm package that provides seamless conversion between different currencies. It supports real-time exchange rates, allowing you to accurately convert amounts from one currency to another. Whether you're building a financial application, e-commerce platform, or simply need to display currency conversions, this package offers a straightforward and hassle-free integration.",
   "main": "index.js",
