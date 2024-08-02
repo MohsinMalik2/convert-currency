@@ -16,7 +16,7 @@ To install `i-convert-currency`, use npm:
 
 ```bash
 npm install i-convert-currency
-
+```
 ## Usage
 
 ### Setup
@@ -28,7 +28,7 @@ import { initializeAPI } from 'i-convert-currency';
 
 // Initialize with your FreeCurrencyAPI key
 initializeAPI('your_api_key_here');
-
+```
 ### Converting Currency
 
 Convert currency from one unit to another with ease:
@@ -42,7 +42,7 @@ async function convertExample() {
 }
 
 convertExample();
-
+```
 ## API Reference
 
 ### `initializeAPI(apiKey)`
@@ -69,7 +69,7 @@ initializeAPI('your_api_key_here');
 convertCurrency('GBP', 'JPY', 50)
   .then((result) => console.log(`50 GBP is approximately ${result} JPY`))
   .catch((error) => console.error('Conversion error:', error));
-
+```
 
 ## License
 
