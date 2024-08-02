@@ -1,6 +1,11 @@
 import Freecurrencyapi from '@everapi/freecurrencyapi-js';
 
-const freecurrencyapi = new Freecurrencyapi('fca_live_Z7IQkbbzGi7dTLvZWmm2d6r1W3hbvJLhEzWPjw2r');
+
+let freecurrencyapi;
+
+export function initializeAPI(apiKey) {
+  freecurrencyapi = new Freecurrencyapi(apiKey);
+}
 
 export async function convertCurrency(from, to, units) {
     try {
